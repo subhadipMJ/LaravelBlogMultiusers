@@ -77,7 +77,7 @@
           <span class="span three"></span>
         </button>
 
-        <a href="#" class="btn">Join</a>
+        <a href="{{route('register')}}" class="btn">Join</a>
 
       </div>
 

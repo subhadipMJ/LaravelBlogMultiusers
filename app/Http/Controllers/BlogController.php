@@ -13,7 +13,10 @@ class BlogController extends Controller
      */
     public function index()
     {
-        return "index blog";
+       $blogs = Blog::all();
+
+       return view('frontend.blogs', compact('blogs'));
+
     }
 
     /**
